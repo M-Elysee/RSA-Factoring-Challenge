@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 		free(ptr);
 	} while (line > 0);
 	fclose(fl);
-	return 0;
+	return (0);
 }
 /**
 * factor - rints the factors of a number passed into as arguments
